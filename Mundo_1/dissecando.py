@@ -1,0 +1,7 @@
+variavel = input("Digite algo:")
+print("É uma décima? {}.".format(variavel.isdecimal()))
+print("Tem espaços? {}.".format(variavel.isspace()))
+print("É numérico?  {}.".format(variavel.isalnum()))
+print("É alfanumérico? {}.".format(variavel.isalpha()))
+print("Está em caixa baixa? {}.".format(variavel.islower()))
+print("Está em caixa alta? {}.".format(variavel.isupper()))
